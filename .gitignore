@@ -1,5 +1,4 @@
 node_modules/
-data/users.json
+client/build/
 data/reviews.json
-config/config.env
-data/
+data/users.json
