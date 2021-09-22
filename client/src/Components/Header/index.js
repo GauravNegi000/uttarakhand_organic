@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import SearchBox from '../SearchBox/SearchBox';
 import * as routes from '../../constants/routes';
 import '../style.css';
+import brandImg from '../../assests/Uttarakhand_organic.png';
 
 const Header = () => {
   const userAuthData = useSelector((state) => state.userLogin);
@@ -16,10 +17,16 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect sticky="top">
         <Container>
           <LinkContainer to={routes.HOME}>
-            <Navbar.Brand>ShopPoint</Navbar.Brand>
+            <Navbar.Brand><img
+              src={brandImg}
+              width="250"
+              height="120"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+          /></Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

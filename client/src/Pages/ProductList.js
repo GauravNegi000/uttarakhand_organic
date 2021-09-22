@@ -233,9 +233,10 @@ const ProductList = () => {
                           label="Category"
                           value={category}
                         >
-                          <MenuItem value="Shirt">T-shirt</MenuItem>
-                          <MenuItem value="Pants">Pant</MenuItem>
-                          <MenuItem value="Vest">Vest</MenuItem>
+                        <MenuItem value="Daal">Daal</MenuItem>
+                        <MenuItem value="Grains">Grains</MenuItem>
+                        <MenuItem value="Seeds">Seeds</MenuItem>
+                        <MenuItem value="Spices">Spices</MenuItem>
                         </Select>
                       </FormControl>
                     </Col>

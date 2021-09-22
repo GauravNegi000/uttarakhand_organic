@@ -6,7 +6,7 @@ export const mainHeader = (userInfo) => {
       body: [
         [
           {
-            text: 'SHOPPOINT',
+            text: 'Uttarakhand Organics',
             style: 'mainheader',
             bold: true,
             marginTop: 10,

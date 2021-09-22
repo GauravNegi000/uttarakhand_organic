@@ -12,7 +12,7 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'Welcome To ShopPoint',
+  title: 'Welcome To Uttarakhand Oganics',
   description: 'We sell the best products for cheap',
   keywords: 'clothes, buy readyMadeClothes, cheap latest clothes',
 };
