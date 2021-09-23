@@ -1,8 +1,6 @@
-# Welcome to ShopPoint! ✨
+# Welcome to Uttarakhand Organic - An ecommerce Portal! ✨
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://shoppingpoint.herokuapp.com/)&nbsp;[![Build passing](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=flat-square)](https://shoppingpoint.herokuapp.com/)&nbsp;[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://foodeazy.herokuapp.com/)&nbsp;[![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://shoppingpoint.herokuapp.com/)&nbsp;![Made with love in Nepal](https://madewithlove.now.sh/np?heart=true)
-
-**Project Link** - ***https://shoppoint.herokuapp.com/***
+**Project Link** - ***https://uttarakhand_organic.herokuapp.com/***
 
 ![screenshot](image/home.PNG)
 
@@ -24,11 +22,7 @@
 - Checkout process (shipping, payment method, etc)
 - Order summary
 - PayPal / credit card integration
-- Esewa payment integration (Nepali payment gateway)
 - Database seeder (products, users, reviews, & orders)
-
-**New features (Added)**
-
 - Print User orders as pdf
 - Print UserList as pdf
 - Print OrderList as pdf
@@ -54,8 +48,6 @@
 ## API :man_technologist:
 
 - [PayPal API](https://developer.paypal.com/)
-- [Esewa API](https://developer.esewa.com.np)
-- [Send Grid API](https://sendgrid.com/)
 - [Cloudinary API](https://cloudinary.com/)
 
 ## Installation :zap:
@@ -63,16 +55,16 @@
 **1. Clone this repo by running the following command :-**
 
 ```bash
- git clone https://github.com/SajidAnTechie/ShopPoint
- cd ShopPoint
+ git https://github.com/GauravNegi000/uttarakhand_organic.git
+ cd uttarakhand_organic
 ```
 
 **2. Now install all the required packages(frontend & backend) by running the following commands :-**
 
 ```
-yarn add
+yarn install
 cd client
-yarn add
+yarn install
 ```
 
 **2. Create a config.env file in config folder and add the following**
@@ -95,10 +87,8 @@ CLOUD_NAME=your cloudinary name
 API_KEY=your cloudinary api key
 API_SECRET=your cloudinary api secret key
 
-SEND_GRID_KEY=your sendgrid api key
-
 FROM_EMAIL=your sender email
-FROM_NAME=ShoppingPoint
+FROM_NAME=Uttarakhand Organic
 
 ```
 
@@ -125,5 +115,3 @@ yarn start
 ```
 
 **5.** **🎉 Open your browser and go to `https://localhost:3000`**
-
-## 🤩 Don't forget to give this repo a ⭐ if you like this repo and want to appreciate our efforts
