@@ -1,6 +1,6 @@
 # Welcome to Uttarakhand Organic - An ecommerce Portal! ✨
 
-**Project Link** - ***https://uttarakhand_organic.herokuapp.com/***
+**Project Link** - ***https://uttarakhand-organic.herokuapp.com/***
 
 ![screenshot](image/home.PNG)
 
